@@ -35,10 +35,10 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Fork the project to your github account
-- [ ] Clone the project to your computer
-- [ ] Open the project in VSCode with `code <cloned_repo_folder_name>`
-- [ ] This Assignment is NOT tested. You can use all the desired creativity!
+- [x] Fork the project to your github account
+- [x] Clone the project to your computer
+- [x] Open the project in VSCode with `code <cloned_repo_folder_name>`
+- [x] This Assignment is NOT tested. You can use all the desired creativity!
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] The project's file/folder structure should NOT be edited!
 - [ ] The index.html file should NOT be edited! The only acceptable change are additional classes added to elements.
@@ -52,11 +52,11 @@ This assignment should prove that a student is able to:
 
 `For the Robot Face exercise:`
 
-- [ ] Visit the [The shapes of CSS](https://css-tricks.com/the-shapes-of-css/) article for some shapes inspiration.
-- [ ] Edit the following files to solve that part of the assignemnt:
+- [x] Visit the [The shapes of CSS](https://css-tricks.com/the-shapes-of-css/) article for some shapes inspiration.
+- [ ] Edit the following files to solve that part of the assignment:
   - [ ] html: `/pages/fancy-robot.html`
   - [ ] css: `/css/fancy-robot.css`
-- [ ] The container for the robot face (face shape) should be positioned/aligned folowing the rules:
+- [ ] The container for the robot face (face shape) should be positioned/aligned following the rules:
   - [ ] It should be horizontally centered to the viewport width and height.
   - [ ] The container should not overlap the header section.
 - [ ] Style the shape of the robot face to follow the requirements:
