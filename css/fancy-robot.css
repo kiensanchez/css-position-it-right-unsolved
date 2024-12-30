@@ -1,13 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
 .robot-container {
+  border: 1px solid magenta;
+  height: 600px;
+  width: 600px;
+  margin: 100px auto 0px;
 }
 
 .robot-face-shape {
+  border: 10px solid aqua;
+  height: 65%;
+  width: 60%;
+  margin: 100px auto;
+  padding: 0;
+  border-radius: 10%;
+  position: relative;
 }
 
 .robot-eye-left {
+  position: relative;
+  width: 75px;
+  height: 75px;
+  margin: 20px 0;
+  background: red;
+  border-radius: 50% / 10%;
+  color: white;
+  text-align: center;
+  text-indent: 0.1em;
+  left: 70px;
+  top: 30px;
+}
+
+.robot-eye-left:before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  right: -5%;
+  left: -5%;
+  background: inherit;
+  border-radius: 5% / 50%;
 }
 
 .robot-eye-right {
+  position: relative;
+  background-color: bisque;
+  height: 20px;
+  width: 75px;
+  left: 200px;
+  top: -10px;
 }
 
 .robot-ear-left {
