@@ -26,6 +26,7 @@
   width: 25px;
   background: chocolate;
   border: none;
+  border-radius: 45%;
 }
 
 .robot-hair-two {
@@ -33,13 +34,16 @@
   width: 25px;
   background: darkolivegreen;
   border: none;
+  border-radius: 45%;
 }
 
 .robot-hair-three {
   height: 65px;
   width: 25px;
   background: darkgoldenrod;
+  opacity: 50%;
   border: none;
+  border-radius: 45%;
 }
 
 .robot-face-shape {
@@ -58,28 +62,16 @@
   height: 75px;
   margin: 20px 0;
   background: red;
-  border-radius: 50% / 10%;
-  color: white;
-  text-align: center;
-  text-indent: 0.1em;
+  background-image: url("https://picsum.photos/200/300?grayscale");
+  background-size: cover;
+  background-position: center;
   left: 70px;
   top: 30px;
 }
 
-.robot-eye-right:before {
-  content: "";
-  position: absolute;
-  top: 10%;
-  bottom: 10%;
-  right: -5%;
-  left: -5%;
-  background: inherit;
-  border-radius: 5% / 50%;
-}
-
 .robot-eye-left {
   position: absolute;
-  background-color: darkblue;
+  background: linear-gradient(90deg, blue, 50%, red);
   height: 20px;
   width: 75px;
   left: 200px;
